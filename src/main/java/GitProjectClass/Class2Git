@@ -1,0 +1,56 @@
+**************************git class
+revision********************************
+* How to navigate your terminal to the location of your intellij project.
+1. know the location of your project --->infront of the name of project
+in intellij
+2. open up gitbash/terminal
+3. pwd---> the current location of the terminal
+4. cd --> to change the directories and move to the right location.
+5. once we are at the right location , how to confirm that it is actually
+the correct location
+--->pwd--->we have to compare the path of terminal to the path of the
+project.
+------------------
+-----------------
+where should we place our repository?
+inside the project folder.
+************************************* git class 02**********************
+Git has a three stage architecture
+â Working Directory:
+Working directory is our current folder where all our
+files and folders are which we want to track using GIT.
+â Staging area:
+Staging area contains the files and folders we want to be in
+our next commit
+â Local Repository:
+Local repository contains all our commits with the message
+and unique code assigned to each commit.
+Commit takes a snapshot of our code and saves it.
+----------------------------------------create a new project in intellij--
+----------------------------------------------
+Track/backup the project using git
+1. decide the location of the repo.
+2. navigate ur terminal to the location
+shortcut---> right click on the project name
+---> open in ---> Explorer/finder
+**for window people these steps
+go inside the project folder and right click and select
+gitbash here
+**for mac people
+right click on the project folder and select opeen new
+terminal at folder
+3. VERIFY ---> pwd ---> compare the path of project with the terminal to
+make sure they are same.
+4. it is a brand new project so do ---> git init
+5. git add .----> adds to the staging area
+6. git commit -m "mesage"---> adds to repo
+------------------------------------------commands------------------------
+--------
+git init---> creates a new repo
+git add . ---> adds all the files in the staging area
+git commit -m "message" ---> adds all files to the repo with a commit
+message
+git log----> shows the commit in the repo
+git status--> shows the status of repo
+--------------------------------------------------------------------------
+---------

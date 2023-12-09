@@ -1,0 +1,60 @@
+*******************class 03*******************
+---------------------------------------------create a new project---------
+---------------
+we want to track our project using git , so that we are able to create and
+save different versions of it!!!
+1. location of the project --->the location can be find next to it.
+2. navigate our terminal to the location
+* open gitbash/terminal and then use the commands like pwd,cd e.t.c
+to navigate
+OR
+* shortcut method :
+right click on project folder
+openin--->explorer/finder
+for windows:
+go inside the project folder
+and right click and select gitbash here
+for mac:
+click on the project folder
+and right click and click on open terminal at this folder.
+3. git init---> it initialzies a empty repository
+4.git add .
+5. git commit -m "message"
+----------------------------------------git follows a 3-stage
+architecture--------------------------
+1. working directory--->project folder in which all your project files
+are located
+2. staging area -----> a temporary storage inside the folder .git
+3. local repo ------> it is a local repository inside the .git.
+--------------------------------------------------------------------------
+--
+---------------------------In order to send our codes to github-----------
+--------------
+1. create a repository on github
+* open github.com
+* click on new
+* enter the repo name --> on the new page
+* create repository
+2.Establish the connection (One time process)
+* git branch -M main --> we will learn later
+* git remote add origin "url" ---> connects the repo with the remote
+repo
+if i want to check that the connection is established
+* git remote -v ---> it prints the url of the repository to which you
+are connected (make sure it is the correct one)
+3.git push -u origin main (the first time u have to use git push -u orign
+main)
+for every next time
+git push --->will work
+---------if u connected to a wrong remote repo-----
+solution
+1, remove the connection --> git remote remove origin
+2. git remote -v --> to verify it is deleted
+3. to restablish the connection with the new repo
+* git branch -M main
+* git remote add origin "url" ---> if the url is not seen , u can get
+it
+* by clicking on the code option, from the drop down u can get the
+url (copy it)
+4. git remtoe -v to verify
+

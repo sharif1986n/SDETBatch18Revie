@@ -1,0 +1,47 @@
+Batch 18- Manual Testing Notes-
+
+Class 1 -
+why do we need to test!
+what is quality?
+SDLC / STLC - software testing lifecycle
+STLC is a subset of SDLC
+requirement analysis - SMART criteria
+test planning - outcome of this is test plan document which is prepared by
+QA lead/Test lead/QA manager
+test case development -
+environments -
+developers develop application -
+maria - login screen
+bikal - dashboard screen
+tony - logout
+damla - products
+login -
+dashboard
+logout
+products
+- common repository -
+dev.amazon.com - development environment
+test.amazon.com - test/qa - where QA engineers test
+amazon.com - production
+agile-scrum
+epics - big chunk of code/module/requirement
+split high level requirement into low level requirement
+we get user stories from epics -
+from one epic, we get multiple user stories
+in product backlog - PO dump/keeps all the user stories
+100 user story in product backlog
+5 user story in one sprint (based on the priority)
+EPIC FATHER - USER STORY - CHILD
+BACKLOG is the place to keep child
+based on the user story - we write test cases -
+once we write the test case.
+environment setup - test bed (browser must be there, you have the access
+to the application, test data must be there)
+test execution - we execute all the test cases in this phase and check if
+the functionality is working or not.
+test cycle closure - delivery -
+different types of application -
+desktop application - standalone application - calculator, MS word,
+notepad, MS paint
+website/ web app -
+mobile application

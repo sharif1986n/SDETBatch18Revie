@@ -1,0 +1,39 @@
+recap -
+what is STLC - it is a subset of SDLC
+requirement analysis
+test planning - the outcome of this phase is test plan document -
+test case development -
+environment setup -
+text execution -
+test case development -
+User story - US001 - Validate the login functionality of the HRMS (Human
+resource management system) application
+dev environment - development done here
+QA/Test environment - testing performed by QA team
+staging environment - client testers perform testing (end to end testing)
+production environment - go live
+defect/bug/issue/ticket
+What is Bug - Any problem which is affecting the expected functionality of
+the software is bug.
+Bug Life cycle -
+whenever we find a bug
+reproduce the bug atleast 3 times
+check the requirement (documents)
+if all above steps are good, then report a bug
+As much as information is possible -
+Steps to reproduce
+browser, time, environment, test data, log, screenshot or screen recording
+severity and priority of the bug
+severity - it is the seriousness of the defect on product functionality
+priority - the order in which the defect should be fixed.
+assigned the defect to developer -
+cucumber scenarios/Test case
+A cucumber test case is written in a language called gherkin. Gherkin is
+plain english text. BDD behavioral driven development
+Given - pre condition
+When - to perform the action
+Then - expected result
+Given user is able to access chrome browser and launch application
+When user enters username and password
+And user clicks on login button
+Then user is navigated to HRMS dashboard page

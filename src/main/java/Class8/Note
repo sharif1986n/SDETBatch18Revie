@@ -1,0 +1,17 @@
+Arrays:
+Its a collection of similar items. The data is stored in consecutive memory location inside the
+memory. We use indexing to store and access the data in am array.Every element that we store in
+an array is assigned a number these numbers start from 0 first element will be assigned number 0
+next one 1 and so on.
+
+Why we Should use arrays:
+Its not feasible to use variables for large amounts of data. Storing managing searching large amounts of data
+Becomes easier with arrays and loops.
+Syntax of Arrays:
+We can create arrays in two ways
+
+1) DataType []nameOfArray={item1,item2,item3};
+StRING[]NAMES={"Kawoon","Patrick","Halil"}
+
+2)DataType[]nameOfArray=new Datatype[Size];
+int[]numbers=new int[5];

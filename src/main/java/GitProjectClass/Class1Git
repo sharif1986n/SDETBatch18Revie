@@ -1,0 +1,30 @@
+
+*************************Git Class 01*********************
+What is a version???
+every update in the code creates a new version of it.
+What is git?
+git is a tool, that help us manage differnet versions of our code
+and saves them in a repository.
+a tool that help us manage versions---> version control system.
+git is a version control system
+where is this repository ??????
+the repository is on your computer.
+what is a local repository?
+a storage area on your computer!!!!!!!!!
+What is github?
+git hub is a remote repository
+The default location of terminal is called --> Home directory.
+---------
+1. make sure that what ever u type , the syntax is correct.
+spaces, capital small, spellings.
+Commands:
+PWD---> prints the current location of the terminal.
+ls----> list all the folders.directories present in the current folder
+cd---> change the directory to a specified one
+cd .. --> to go back one step ---> to move out of the current folder
+Task:
+navigate your terminal in to a project that u created!!!!!!!!
+Appraoch:
+1. create a new porject in intellij. ----> in progress
+what info do we need???
+we need to know the location of our project...

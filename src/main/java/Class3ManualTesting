@@ -1,0 +1,70 @@
+class 3 -
+recap -
+And - supporting tag which can go with given when then
+user story - Login functionality
+acceptance criteria - As a user, if I enter credentials, I should be able
+to login to the system.
+data driven testing -
+when your scenario/test case executes against multiple sets of data, then
+it is data driven test
+Data driven testing -
+Given user is able to access chrome browser and launch application
+When user enters "username" and "password"
+And user clicks on login button
+Then user is navigated to HRMS dashboard page
+username
+admin
+lead
+manager
+director
+merchant
+password
+Hum@nhrm123
+Hum@nhrm123
+Hum@nhrm123
+Hum@nhrm123
+Hum@nhrm123
+Types of testing -
+Functional and Non Functional
+What is functional testing - to test the functionality of the application,
+we perform functional testing.
+non functional testing - look and feel, performance, security
+nasima - settings
+sino - login
+tony - logout
+before committing this code in dev env, all developers check their
+respective modules
+developers only check the unit/component on which they are working
+Unit testing - only developers perform unit testing
+Integration Testing - QA/test - QA team performs integration testing (All
+units together)
+QA/Test - System testing - when my application works with other
+softwares/hardwares (end to end testing)
+Staging environment - User acceptance testing (UAT) - client tester's
+perform UAT testing.
+functional
+non functional
+unit
+integration
+system
+UAT
+regression - when you test all the test cases, checks all the
+functionality (ALL) - situations of executing this is available in slides
+smoke testing - we perform smoke testing every day, checking the key/basic
+functionality of the application (10-15 test cases) - quick testing
+performance testing - to check the performance of tha application under
+various conditions
+508 compliance testing - this type of testing is mandatory for government
+websites, JAWS is the popular tool for testing it.
+Ad hoc testing - exploratory testing, testers try to break the flow of
+application but without following
+any test case flow. (no documentation needed). exploratory testing, ad
+hoc, monkey, informal testing.
+retesting - when you retest the functionality after fixing the bug
+positive testing - when you enter the positive data and checks the
+positive flow intentionally we call it positive testing.
+negative testing - when you enter the negative data intentionally to
+generate the errors in the system
+black box testing - QA performs black box testing.
+white box testing - developers perform white box testing.
+green box testing - client testers perform

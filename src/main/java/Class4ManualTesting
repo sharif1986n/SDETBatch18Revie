@@ -1,0 +1,69 @@
+Class 4 - recap -
+functional
+non functional testing
+unit
+ Integration
+system
+UAT
+regression
+smoke
+performance
+508 compliance testing
+Ad hoc testing
+retesting
+positive testing
+negative testing
+black box
+white box
+green box testing
+boundary value analysis (BVA) -
+bva testing is to make sure the software accepts valid data inside the
+valid boundary.
+data driven testing -
+data driven testing -
+Given the user is able to access amazon application
+When user enters "username" and "password"
+And user clicks on login button
+Then user should navigate to homepage
+username -
+user123
+user456
+user789
+password -
+pass123
+pass124
+pass125
+when your test case executes against multiple sets of data, we call it
+data driven testing.
+Homework -
+Write 5 scenarios for (BDD) for data driven testing for login
+functionality.
+Project Management Tool -
+in order to track the progress of the project, we use project management
+tool.
+reporting purpose, user stories, artifacts such as sprint backlog items,
+test cases, burn down chart, task, sub task etc.
+JIRA - most popular tool
+HP ALM/QC (application lifecycle management/quality center)
+Rally
+Trello
+Devops azure
+in jira -
+select your project group wise
+dashboard - in this, you can see all the tasks assigned to you
+projects - in this, you will see all projects and current project
+issues - everything in jira is known as issue
+bug, task, user story, epic (all are issues in JIRA)
+bug - defects we raise during the testing
+task - assigned work to somebody
+user story - requirement to be completed we put in the form of user story
+epic - big chunk of requirement
+In project, we get product backlog - all user stories
+story point estimations -
+1 story point = 1 day
+agile ceremonies -
+sprint planning meeting
+daily stand up
+sprint grooming/review
+sprint demo
+sprint retrospective
